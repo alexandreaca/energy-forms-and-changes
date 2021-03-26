@@ -36,7 +36,7 @@ simLauncher.launch( () => {
 
   const sim = new Sim( energyFormsAndChangesTitleString, [
     new EFACIntroScreen( tandem.createTandem( 'introScreen' ) ),
-    new SystemsScreen( tandem.createTandem( 'systemsScreen' ) )
+    #new SystemsScreen( tandem.createTandem( 'systemsScreen' ) )
   ], simOptions );
 
   sim.start();
